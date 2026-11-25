@@ -1,0 +1,730 @@
+{
+ "archive": {
+  "name": "code-4.7.13.zip",
+  "sha256": "80950dfb8c242dab2a41461d822bbad50d9b70bbbe973f2909581cef8c033055",
+  "size": 1894053
+ },
+ "date": "2026-11-25",
+ "files": {
+  ".gitignore": {
+   "mode": 493,
+   "sha256": "b2ca6e95a3ed240a6532d1871651fb7f9d3520471940d62f3f85302912ac46ee",
+   "size": 1017
+  },
+  "LICENSE-NOTES.md": {
+   "mode": 493,
+   "sha256": "ad8b9c4880dc004aa08d743a3ba54a12c56a9a9ef43ffe790f273ebfb2ee6cf4",
+   "size": 1782
+  },
+  "README.md": {
+   "mode": 420,
+   "sha256": "738aef5ff3433f09cfa03d31a84cd5280c4535b3e4ce89e5fe399a2a8b43e5e4",
+   "size": 6509
+  },
+  "SKILL.md": {
+   "mode": 420,
+   "sha256": "0120c1ef5e9d7c9c162ef878a0f1eca3667b0ef65e89439cf18731a127dc47d9",
+   "size": 80661
+  },
+  "VERSION": {
+   "mode": 420,
+   "sha256": "870005a41875530d3a7afff0eef7b1cf7ade0e4a5f446171531c86863b761afb",
+   "size": 7
+  },
+  "assets/app/icon-192.png": {
+   "mode": 420,
+   "sha256": "e4a0abdfb47df26d757da68dbecd609a8c025b8a653c83924dac22ff62f39206",
+   "size": 32968
+  },
+  "assets/app/icon-512.png": {
+   "mode": 420,
+   "sha256": "3c1867b54d6dbf7a68b424a50671cf159a8f606108d419fe6217e92194c35b47",
+   "size": 188279
+  },
+  "assets/app/icon.ico": {
+   "mode": 420,
+   "sha256": "3d5b419c451d889e4e6adcfc08e8755a6c6c1e04f83ec86da3ec2b1f9d7b3d22",
+   "size": 86211
+  },
+  "assets/app/icon_from_image.py": {
+   "mode": 420,
+   "sha256": "aa4f47377b0afdc11b06ba2ed54d0dfdb7359a0e35f4f9c46b75953cb47edf00",
+   "size": 2714
+  },
+  "assets/app/make_icon.py": {
+   "mode": 420,
+   "sha256": "5ae4d16f04a1028262829b9e4216a4d6c3eede9b25ee2255e35b63a66c1bd86c",
+   "size": 3821
+  },
+  "assets/app/manifest.webmanifest": {
+   "mode": 420,
+   "sha256": "8128d1abba5aa7a1b6fd9a21daf82e204b8927f1972b2ace221eb9dc5b972960",
+   "size": 428
+  },
+  "assets/app/offline.html": {
+   "mode": 420,
+   "sha256": "1bf16c51726df7f5e15a30a1cd41d30e45e455f9589eec84cfc84ccfc5c94ebd",
+   "size": 2974
+  },
+  "assets/app/source.jpg": {
+   "mode": 420,
+   "sha256": "c3f0d67b882f270500115d181945020b78bc50e688a829b3bfd37f65c45d857d",
+   "size": 172443
+  },
+  "assets/fonts/Heebo900.ttf": {
+   "mode": 420,
+   "sha256": "2616ebaf18906d72fb8aa99d5d0553cc130c34b64624f674a3a2e278548a5b87",
+   "size": 59012
+  },
+  "assets/fonts/OFL.txt": {
+   "mode": 420,
+   "sha256": "866747cbccae229433e946b90fcfc457b81c33ac89e593855770851354f9e6c3",
+   "size": 4474
+  },
+  "assets/fonts/YSFloatHeebo.ttf": {
+   "mode": 420,
+   "sha256": "37171ba4454814b9653a3df6e0c5cd8e1a25e0bff3acf77786b2d1214eaa49a6",
+   "size": 80016
+  },
+  "assets/fonts/YSMarkerBold.ttf": {
+   "mode": 420,
+   "sha256": "30a72cdc20ba10e06bae9862a7d9583f139220de4e9824d5728d52fbc4f9ed3f",
+   "size": 40324
+  },
+  "assets/guidelines/shorts_default.txt": {
+   "mode": 420,
+   "sha256": "747bf6afb25f1deb9132735858403e98f9f9560ce4a6157b2d50c2a16fd50778",
+   "size": 8218
+  },
+  "assets/logo/README.md": {
+   "mode": 420,
+   "sha256": "8adf24ab82aaf6ef0c8e4211cd1e9f619e39d23d009379cf5f4c2cbe57caf83c",
+   "size": 1611
+  },
+  "assets/models/NOTICE.md": {
+   "mode": 420,
+   "sha256": "50c312aa072c3426538f35671216457e635bf911b1a88601a42403fff0f7e3d4",
+   "size": 707
+  },
+  "assets/models/face_detection_yunet_2023mar.onnx": {
+   "mode": 420,
+   "sha256": "8f2383e4dd3cfbb4553ea8718107fc0423210dc964f9f4280604804ed2552fa4",
+   "size": 232589
+  },
+  "assets/music/README.md": {
+   "mode": 420,
+   "sha256": "bfe872f23c36357f7047a9a8101d686874acf933c42aa6b39180ca03026cafb3",
+   "size": 3926
+  },
+  "assets/proposals_channel.json": {
+   "mode": 420,
+   "sha256": "3f17ec4a611aecb00a01cc644947bc067b4916b9ad34703cf5783eafcbb60cf1",
+   "size": 276
+  },
+  "assets/release_source.json": {
+   "mode": 420,
+   "sha256": "6c2346c03be19c4d58b3b0cb2e3fc6561ec0a16a60d4f59b3de1d25d3aaa1cc1",
+   "size": 174
+  },
+  "backup_extras.sh": {
+   "mode": 420,
+   "sha256": "0486ee3adadc74669a55b16cf48595c99ec8357f5d9e080a14a9515bd0817731",
+   "size": 19318
+  },
+  "docs/HANDOFF.md": {
+   "mode": 420,
+   "sha256": "d70a50098db1eee485bf3a90449116a741a3adfaa9ab4c0e0bf14de53fd302f9",
+   "size": 191471
+  },
+  "drive_backup.sh": {
+   "mode": 420,
+   "sha256": "1fa69daad3979e4b094c325e9cdd62fc87b8cca04e59c24d085d6c06409299d9",
+   "size": 6607
+  },
+  "install.sh": {
+   "mode": 420,
+   "sha256": "feb5e895ec3d31828c4d15d4e4908a69ce29325061c21482524e288df6306d9a",
+   "size": 11300
+  },
+  "pipeline/scripts/add_music.py": {
+   "mode": 420,
+   "sha256": "76c09324affed7dfb9a1d371d83ba548e6ba97480885f11a34d1e186c37d59e3",
+   "size": 3488
+  },
+  "pipeline/scripts/align_clean_text.py": {
+   "mode": 420,
+   "sha256": "c4fb4e882fe9762c62bc2bb94b7b74b9ba43d0cbfce056a57537bca3ad0e808e",
+   "size": 4417
+  },
+  "pipeline/scripts/ask_gemini_upload.py": {
+   "mode": 420,
+   "sha256": "0459837297f5cacd3fd8ea291d6360fa3b02e2a8b53a7e00c4d34bba57148c27",
+   "size": 5844
+  },
+  "pipeline/scripts/ask_gemini_video.py": {
+   "mode": 420,
+   "sha256": "f90a499ce4871942b53922511ffa97de82da7429a49ebb7e705f01add6b7ca6c",
+   "size": 5461
+  },
+  "pipeline/scripts/asr.py": {
+   "mode": 420,
+   "sha256": "b4c2a62b769cd3115341e85162dcdeded525df68e23a6ba236f5ed400a8d8724",
+   "size": 7725
+  },
+  "pipeline/scripts/auto_pipeline.py": {
+   "mode": 420,
+   "sha256": "42c0db05085314ca97d20ea13f1d27157db43b6c898a9f90819e762c0e64273c",
+   "size": 25450
+  },
+  "pipeline/scripts/build_ass.py": {
+   "mode": 420,
+   "sha256": "f6b4dac32bc9a11b8be8bbb356bf8cd8ab74ce6989aac381e42e0ae7796f143b",
+   "size": 18680
+  },
+  "pipeline/scripts/build_clean_video.py": {
+   "mode": 420,
+   "sha256": "2b1bb310f3c2697f70ca3c4ab45f7e2d8f62e96811f9b1c6ba4ee0bf4c1bd190",
+   "size": 20671
+  },
+  "pipeline/scripts/camera_path.py": {
+   "mode": 420,
+   "sha256": "fb8c3d287881fbee676f0169e7d2378c4278631d30d32f2b04ba10766f8382f2",
+   "size": 15124
+  },
+  "pipeline/scripts/camera_sim.py": {
+   "mode": 493,
+   "sha256": "ed5184bc27e524c33889f7b11c94fde2179c568ef5112a472468619c4d5eca46",
+   "size": 2165
+  },
+  "pipeline/scripts/center_track.py": {
+   "mode": 420,
+   "sha256": "7d18eb318024890f6f0e0bb4487a085dc348ee9b2b7c691277552bc4997ae8ad",
+   "size": 9542
+  },
+  "pipeline/scripts/check_framing.py": {
+   "mode": 420,
+   "sha256": "d44130b8a19a1a1ebe1b09548c0fcbdb79efe49efa70282e9924343564b8b385",
+   "size": 5926
+  },
+  "pipeline/scripts/check_subs.py": {
+   "mode": 420,
+   "sha256": "4716b7322eb518ff01023d1a75e9331b83c36b3f7db950c548191ec0a55a5a92",
+   "size": 3597
+  },
+  "pipeline/scripts/cut_clips.py": {
+   "mode": 420,
+   "sha256": "01017c6256ccf708a64f8321e24e6a37f03b52878000c51e620154c58e189fd3",
+   "size": 873
+  },
+  "pipeline/scripts/export_clips.py": {
+   "mode": 420,
+   "sha256": "9c18965e3d934dfdacdf5aad9378db8b834b35aaa35fb578f3171dae22d3d811",
+   "size": 32455
+  },
+  "pipeline/scripts/face_track.py": {
+   "mode": 420,
+   "sha256": "deb4e5bd2108696701addc58c0b6b7f24c05692520d43dba07585fc481480035",
+   "size": 19993
+  },
+  "pipeline/scripts/find_phrase.py": {
+   "mode": 420,
+   "sha256": "70c50d7ab5633b643bb25165f8820a087bef8f41fd04c042a813264443d4c641",
+   "size": 2408
+  },
+  "pipeline/scripts/gemini_text.py": {
+   "mode": 420,
+   "sha256": "04e96d9f5d72888841a1c60aa8883f4295d0070f97e9640df40975f59f1ecfd1",
+   "size": 2108
+  },
+  "pipeline/scripts/gemini_verify_audio.py": {
+   "mode": 420,
+   "sha256": "ab527bd3ca3c1e024ef07b9c86edcfb0a2515e3f94ff9f6cd7452d4bacc2b878",
+   "size": 13072
+  },
+  "pipeline/scripts/hook_clip.py": {
+   "mode": 420,
+   "sha256": "1a4435e164d064984762271df75304ba9f697bd2a731c268d99347f87ffb3a19",
+   "size": 16473
+  },
+  "pipeline/scripts/karaoke_ass.py": {
+   "mode": 420,
+   "sha256": "8a015f6f3d0d0c7c3808cf0e2e9572af29ecb8577f62504dc8e44ef77f818f56",
+   "size": 29282
+  },
+  "pipeline/scripts/karaoke_styles.py": {
+   "mode": 420,
+   "sha256": "0f8611f8dbf497b7031c77511fce044c5f84d65a16052874eb71007490fba75b",
+   "size": 19425
+  },
+  "pipeline/scripts/make_short.py": {
+   "mode": 420,
+   "sha256": "542a63237e42001257bc1c7e176e8265f0a941d7929734f8e3b597c8691da441",
+   "size": 172409
+  },
+  "pipeline/scripts/make_short_app.py": {
+   "mode": 420,
+   "sha256": "2b5a7a899919dd27c2050c5ea32c3fc62aac7e1dabb281e99b01551051af2c49",
+   "size": 316171
+  },
+  "pipeline/scripts/make_short_chat.py": {
+   "mode": 420,
+   "sha256": "83d0c6ad114800d32b243abdd7bed9468241a1ddb46c950711b2bd1f6579f2dc",
+   "size": 42333
+  },
+  "pipeline/scripts/make_short_clean.py": {
+   "mode": 420,
+   "sha256": "8107c3a99f2d0c61dfe26269d32221aceaeb491b8c418a1e71aa93e4a16f1edb",
+   "size": 20439
+  },
+  "pipeline/scripts/make_short_editor.py": {
+   "mode": 420,
+   "sha256": "080c4fb7552df5e3c0d1aa67cd92ba66c479e008136c24f877603a2669e8af37",
+   "size": 45988
+  },
+  "pipeline/scripts/make_short_emph.py": {
+   "mode": 420,
+   "sha256": "19d29c1c2b9003fcd9b7bf717612ce672f5e055fa4202edddb5f43bbd45c2aa8",
+   "size": 7701
+  },
+  "pipeline/scripts/make_short_engine.py": {
+   "mode": 420,
+   "sha256": "fab8a0372081c3771a97a5f7558cef96e3b5ac0a73e219b41a0e93af2d4a7b5a",
+   "size": 13626
+  },
+  "pipeline/scripts/make_short_fix.py": {
+   "mode": 420,
+   "sha256": "e12b9427a076befbf63a8b86a10aa0462a064177e0fa0e7ea10557df6842271f",
+   "size": 60244
+  },
+  "pipeline/scripts/make_short_guard.py": {
+   "mode": 420,
+   "sha256": "342b0c49c25a8e52704319e647faaf2d75aa1e3cafc702fd8ae63a3ef8740ef6",
+   "size": 1984
+  },
+  "pipeline/scripts/make_short_health.py": {
+   "mode": 420,
+   "sha256": "5d4a90ad8540c87dbe407e9d3975380ecf9574ceb80c9ba40eda65051792de0c",
+   "size": 33718
+  },
+  "pipeline/scripts/make_short_layout.py": {
+   "mode": 420,
+   "sha256": "4ebe0f49594311325bb2b89fef707c719528e3552be6f98f6373c0c50cc4b83a",
+   "size": 6156
+  },
+  "pipeline/scripts/make_short_manifest.py": {
+   "mode": 420,
+   "sha256": "c1a53c7f88e32e99f21ba01dc90fd09d675ffa39ca95b3d4784940939f0e637b",
+   "size": 3417
+  },
+  "pipeline/scripts/make_short_modal_day.py": {
+   "mode": 420,
+   "sha256": "5f483c757aaf3a0a9e5fd7bfcf0d2e4bcccce378190fd79adc52d12e62dcf877",
+   "size": 5755
+  },
+  "pipeline/scripts/make_short_music.py": {
+   "mode": 420,
+   "sha256": "4811438d21ae9f9c3aa22ce5501a88a02004df1dedccb89306772cccf1a8ade0",
+   "size": 12437
+  },
+  "pipeline/scripts/make_short_page.html": {
+   "mode": 420,
+   "sha256": "c7c10deb89454a8911dca5911661fa3a761d66a132e7f49f8b7dae8f537ba373",
+   "size": 530251
+  },
+  "pipeline/scripts/make_short_personal.py": {
+   "mode": 420,
+   "sha256": "43cf9b8e70f06fcd723763bb59674c8a6ea42ef3ce769beeaefbce2317d8b2a2",
+   "size": 63143
+  },
+  "pipeline/scripts/make_short_pick.py": {
+   "mode": 420,
+   "sha256": "3a3554c9a6f4d23701704652057d4681226d3744896cf6cffa82cf142385c0c1",
+   "size": 126842
+  },
+  "pipeline/scripts/make_short_progress.py": {
+   "mode": 420,
+   "sha256": "8fe68aa443e2f328ad673587b500afcd470039d294ebb8cba6aa1b3ae5828ace",
+   "size": 7290
+  },
+  "pipeline/scripts/make_short_proposals.py": {
+   "mode": 420,
+   "sha256": "5c8a3c4f826b1680a8cbe35f8cca241220cb10e7575ed01f5110a83b8557ae04",
+   "size": 75144
+  },
+  "pipeline/scripts/make_short_publish.py": {
+   "mode": 420,
+   "sha256": "2ecd6e2d8cf80693292b18cc0bc8bdfb41efaa60e04bd7dc82c653c8bdafe0ec",
+   "size": 36243
+  },
+  "pipeline/scripts/make_short_rabbis.py": {
+   "mode": 420,
+   "sha256": "9634098889118b1e0910fdc14d952bf1e4a8da8bc514f4e6dbf3595eac34b0a2",
+   "size": 14695
+  },
+  "pipeline/scripts/make_short_release.py": {
+   "mode": 420,
+   "sha256": "ef85ea86549b066537e38455a2790d541e19ef842412b7702b470eae6431de84",
+   "size": 50748
+  },
+  "pipeline/scripts/make_short_repeats.py": {
+   "mode": 420,
+   "sha256": "3d171946428b0072b843e636809ba9296e19b27ebde5e56be48b19161e598cb4",
+   "size": 8371
+  },
+  "pipeline/scripts/make_short_selftest.py": {
+   "mode": 420,
+   "sha256": "9c538143cab763fe8e8c1273d2e7e3f5b4248038a9901768c26c72f3142e63f6",
+   "size": 182867
+  },
+  "pipeline/scripts/make_short_selftest_410.py": {
+   "mode": 420,
+   "sha256": "49f547d75f81e15dbf50483a40dc437cb2f1b0a85c8cede5bb82d95f770f8c17",
+   "size": 39286
+  },
+  "pipeline/scripts/make_short_settings.py": {
+   "mode": 420,
+   "sha256": "4e397298313470c12f8d17450682ee9533d344c523954d548c3e2110c6186dfa",
+   "size": 38604
+  },
+  "pipeline/scripts/make_short_share.py": {
+   "mode": 420,
+   "sha256": "bafae0088a3246d6e67ec6a3af6464b1add37ca69602e96ba3d3c7b59838740a",
+   "size": 55373
+  },
+  "pipeline/scripts/make_short_snap.py": {
+   "mode": 420,
+   "sha256": "90f8a755f1865a6335307873d950b140d44e5e07fd2fee47c265f7d24487e2f8",
+   "size": 7917
+  },
+  "pipeline/scripts/make_short_update.py": {
+   "mode": 420,
+   "sha256": "d0f78059496bc0b19dbc29535616536632f772d6554a65b24e41df4534fe3434",
+   "size": 41912
+  },
+  "pipeline/scripts/make_short_vault.py": {
+   "mode": 420,
+   "sha256": "92d20ffaead619267745da712119b87a634a8ba6aab4d11042ad94096909df81",
+   "size": 37279
+  },
+  "pipeline/scripts/mix_music.py": {
+   "mode": 420,
+   "sha256": "0f234e89b45930f69e6efa3f4fc7545c122ffd746b6f3b8c1e557d41eb0bce23",
+   "size": 6351
+  },
+  "pipeline/scripts/modal_asr.py": {
+   "mode": 420,
+   "sha256": "28160710f7ff8c7276ca6e5bf50d0ad98c84b31c6737cbd5fe0b2fb32f506ad6",
+   "size": 10083
+  },
+  "pipeline/scripts/multi_piece_clip.py": {
+   "mode": 420,
+   "sha256": "2e124678d6b8c59eca69c6e48832c4dcb1cc6a9e4578207c7fef0ff9bfb7d826",
+   "size": 4240
+  },
+  "pipeline/scripts/music_library.py": {
+   "mode": 420,
+   "sha256": "6830302453e4161161459afd09c0c236f78a6dfe5f160fb50caae5f1b82af390",
+   "size": 21412
+  },
+  "pipeline/scripts/reorganize_exports.py": {
+   "mode": 420,
+   "sha256": "62cb4da6509e66bee831b127d39e85195d4bd5153403698dd834438159de0a77",
+   "size": 14855
+  },
+  "pipeline/scripts/series_cards.py": {
+   "mode": 420,
+   "sha256": "4809f17ecf9edb97ff2264f2425689bca1f02a9ba26acb9ae6b52c359e934fd4",
+   "size": 4652
+  },
+  "pipeline/scripts/shorts_layout.py": {
+   "mode": 420,
+   "sha256": "1ce7c7f650d3fd5f26444f558b638d4ed847ab0b8c816306641df913b6e997a3",
+   "size": 7922
+  },
+  "pipeline/scripts/smooth_cut.py": {
+   "mode": 420,
+   "sha256": "6416dc175cc4db6e61abeb958de85279426bf6ca0de7683e2877e2193a52b40e",
+   "size": 5307
+  },
+  "pipeline/scripts/stutter_window.py": {
+   "mode": 493,
+   "sha256": "a909d916b184487cb153a50e1d33a9eef38c08157fedbbba5cfb96a9066d9747",
+   "size": 2101
+  },
+  "pipeline/scripts/subtitle_terms.py": {
+   "mode": 420,
+   "sha256": "65d60b87c6bef3f936add18299401eb3ecec7efaf5c08ba8272c05908269373c",
+   "size": 4937
+  },
+  "pipeline/scripts/tool_finder.py": {
+   "mode": 420,
+   "sha256": "d112ee25b1688bb3c206036b1c0a4722b3fe5bd8413bd16e61749f0baab8aac3",
+   "size": 21855
+  },
+  "pipeline/scripts/transcribe.py": {
+   "mode": 420,
+   "sha256": "529880f6c0fd39816ba709a7b911b7eb626f3fbdee2abbd1fa53071168ecd6b0",
+   "size": 1745
+  },
+  "pipeline/scripts/trim_version.py": {
+   "mode": 420,
+   "sha256": "c0b8c8491f8b67c62df8bc43f979c2c3530149dfa281e49203e09c6f77a5c2eb",
+   "size": 4303
+  },
+  "pipeline/scripts/win_recycle.py": {
+   "mode": 420,
+   "sha256": "98658f55d4d63051c7d88fc2fe0573362022411934dc9e653b745061d335489a",
+   "size": 4385
+  },
+  "pipeline/scripts/write_clip_meta.py": {
+   "mode": 420,
+   "sha256": "8754d39fd3f20333a332b0fffde663342c051b9c0421ef7cc2e659061ef12118",
+   "size": 6058
+  },
+  "pipeline/scripts/youtube_upload.py": {
+   "mode": 420,
+   "sha256": "50758856175128472b538e7cc6f71169e7ed6956433269e407d51d59513af26a",
+   "size": 20600
+  },
+  "pipeline/tests/dry_run_first_publish.py": {
+   "mode": 420,
+   "sha256": "447d96ada45e82963c95bc1dcb684ee67364e1d34e4e946eb0337b2d7b60da57",
+   "size": 20963
+  },
+  "pipeline/tests/e2e_update_app.py": {
+   "mode": 420,
+   "sha256": "0f43f5fa7abcfeb9d19024407fbbcff75be50bb6fe2a6f75b85fe505e214fa25",
+   "size": 8578
+  },
+  "pipeline/tests/fake_ntfy.py": {
+   "mode": 420,
+   "sha256": "aa04803b790f649f373b72cac71800ad9222d8329c62744982d40a147fab1a73",
+   "size": 4870
+  },
+  "pipeline/tests/feature_manifest.json": {
+   "mode": 420,
+   "sha256": "cd024351ea4d1b3a848ff5c8879c3cb5988ce99b58ee5472f2742909f3280261",
+   "size": 17259
+  },
+  "pipeline/tests/job_stub.py": {
+   "mode": 420,
+   "sha256": "e195258d538bced6c277762a2769c191117588a70322591abf8f631148b2bf5a",
+   "size": 2725
+  },
+  "pipeline/tests/test_camera_exits.py": {
+   "mode": 420,
+   "sha256": "dedbe5225d49042c0bde7fb118061577ddeb6f54c930db9aba32e968ae0911f8",
+   "size": 5976
+  },
+  "pipeline/tests/test_card23.py": {
+   "mode": 420,
+   "sha256": "5c118ba0406612b0c41f303b21862046e2cc82389f45ea1925e54482f621dc0c",
+   "size": 10611
+  },
+  "pipeline/tests/test_chat_update.py": {
+   "mode": 420,
+   "sha256": "9acd27847c614235e945964d818c94eab22966312aa6949af41549333ac8c5d8",
+   "size": 10776
+  },
+  "pipeline/tests/test_clean.py": {
+   "mode": 420,
+   "sha256": "0b9ae291242bbf38b9a4e3dc22dd42f5924741a336e4cecf3f1935a3ed799efc",
+   "size": 11893
+  },
+  "pipeline/tests/test_clip_jobs.py": {
+   "mode": 420,
+   "sha256": "c80b0ffb4ff71849263bdba8827cc9770a202c5ea92a9bb077c27d721a4b552a",
+   "size": 10284
+  },
+  "pipeline/tests/test_drive_timeout.py": {
+   "mode": 420,
+   "sha256": "6543fca91179a7161ed590e5fadeaa45eedb5049a8574fe390738001c5401b3f",
+   "size": 4522
+  },
+  "pipeline/tests/test_emph.py": {
+   "mode": 420,
+   "sha256": "7369200df3d4d090f85778e44f6dfe5d6a392c176a0b160db5093f5412fd990e",
+   "size": 4174
+  },
+  "pipeline/tests/test_engine_upgrade.py": {
+   "mode": 420,
+   "sha256": "c127d13228adf69092df771a0def278c0c29a15a5db0395fed8bfc624dc9f56d",
+   "size": 8016
+  },
+  "pipeline/tests/test_export_layout.py": {
+   "mode": 420,
+   "sha256": "371a24f40d3e5070b9799ab0736a13b06ce84cb952f4c99bee34c136f914d764",
+   "size": 14591
+  },
+  "pipeline/tests/test_fix_chat.py": {
+   "mode": 420,
+   "sha256": "3d205387b598dd71a5c6f2abecdc7098db80c1ecc4c45d0f3c6a863bc7646af6",
+   "size": 29700
+  },
+  "pipeline/tests/test_fixes_4562.py": {
+   "mode": 420,
+   "sha256": "7b7bd6cd97cfc4868ab5c1feb9216a3aa1fd52502546de024673ab988ea3b0a9",
+   "size": 25954
+  },
+  "pipeline/tests/test_hook.py": {
+   "mode": 420,
+   "sha256": "3d0cdbdd2a08a5d5a7a0657d918592ed155d364739284fa2f5801170a32c2238",
+   "size": 9378
+  },
+  "pipeline/tests/test_layout_align.py": {
+   "mode": 420,
+   "sha256": "9d75ef5a7298d4b266e8396aabdda4e1cf50a73f40755af4a94b5f4d43e47861",
+   "size": 4166
+  },
+  "pipeline/tests/test_live_alerts.py": {
+   "mode": 420,
+   "sha256": "07f5910568352b9176539e5070880e2baa5e92d8810da1b3025ff4cf526de432",
+   "size": 6511
+  },
+  "pipeline/tests/test_local_guard.py": {
+   "mode": 420,
+   "sha256": "9fe781fc678348b2475bdc00c37e56e77b17ce36d115282907370d798712cf2c",
+   "size": 9807
+  },
+  "pipeline/tests/test_mix_corrupt.py": {
+   "mode": 420,
+   "sha256": "8142a4f99428f0ccbafcde788bf7a77df1788eccdfc2b4e127432dd920c7215d",
+   "size": 2283
+  },
+  "pipeline/tests/test_modal_day.py": {
+   "mode": 420,
+   "sha256": "d6b8fbb163efc0e71d03a6a4b229cd0e2b662c73254c5861417f68ba059789df",
+   "size": 4385
+  },
+  "pipeline/tests/test_music_likes.py": {
+   "mode": 420,
+   "sha256": "e146946a97b09a56c90ae4dbe2441fbd42c20f4776ef502f573e252db07a88c5",
+   "size": 5628
+  },
+  "pipeline/tests/test_personal.py": {
+   "mode": 420,
+   "sha256": "af00ac7393ab156f86873337b909c8c05d3e676d553417093fb0fe7225661d69",
+   "size": 40653
+  },
+  "pipeline/tests/test_personal_app.py": {
+   "mode": 420,
+   "sha256": "a8b139d43add04d21cc20fbc4ea28cc34c29cc7b77800f537d7eeea2e51e8520",
+   "size": 10254
+  },
+  "pipeline/tests/test_proposals.py": {
+   "mode": 420,
+   "sha256": "6488c10c3158ea8cd8c0fd05b0af07686ad8384d44dbd98cd79ee5b11433b4b6",
+   "size": 43050
+  },
+  "pipeline/tests/test_rabbis.py": {
+   "mode": 420,
+   "sha256": "898399090ff2d503d74aa09765b97fd24bb743c292055982c8e47cc687b8f09d",
+   "size": 16204
+  },
+  "pipeline/tests/test_release_update.py": {
+   "mode": 420,
+   "sha256": "a8e20c33156da35715e408b119b34b6acebb6b8957f0c08680564f857de2a886",
+   "size": 58166
+  },
+  "pipeline/tests/test_undo_bar.py": {
+   "mode": 420,
+   "sha256": "e75e9c9d4d01a338e5f4677bd153a7c395d8d18b8d8ca0e8821dbc4c4496a4f9",
+   "size": 3571
+  },
+  "pipeline/tests/test_vault.py": {
+   "mode": 420,
+   "sha256": "6af2b793cf31539ca9886ee2d36089838ad395174a383582743a7d6dcf3772c6",
+   "size": 36306
+  },
+  "requirements-pinned.txt": {
+   "mode": 420,
+   "sha256": "c19ec0b366673d8c7318ef1cdfc29c0b37205e4cba9c7c517d94e7aa1cb1a53b",
+   "size": 1716
+  },
+  "setup/doctor.py": {
+   "mode": 420,
+   "sha256": "eb3f5f2a05bdd77a6469e74f5d3901172e4b6e736a843a7d527409bf49273708",
+   "size": 16876
+  },
+  "setup/newpc.py": {
+   "mode": 420,
+   "sha256": "ed2abb222acb6d5648bc3a1032562ac50b46f575ac51c5d90918597ea4293f58",
+   "size": 3564
+  },
+  "setup/setup.py": {
+   "mode": 420,
+   "sha256": "f127669c020a7528e740d04ce876bcbba6e4e0bc5eb5be3f56c5ec999ba21c37",
+   "size": 21706
+  },
+  "setup/state.py": {
+   "mode": 420,
+   "sha256": "094cbd00f0cef57fb16a5b49559ed9ee31c90f854e662a4664280a8a399acb77",
+   "size": 3760
+  },
+  "setup/wsl_open.sh": {
+   "mode": 493,
+   "sha256": "60a58ab305dda901d49922d16f7c8b32157eec8039d96d6b767872483a51ae74",
+   "size": 1342
+  },
+  "shorts.sh": {
+   "mode": 493,
+   "sha256": "d5d59b576b598393f078735c79845a4f7836179b1fc543043483a85b3a9581ac",
+   "size": 14545
+  },
+  "windows/app_link.ps1": {
+   "mode": 420,
+   "sha256": "3b06a07e76cf3b46c87d49de8410615b5ac5c9b003b12c97d3d4bc9c8a5446d9",
+   "size": 4121
+  },
+  "windows/install_windows.ps1": {
+   "mode": 420,
+   "sha256": "12d3c5b1483c864c101af9ba9d71fa268c2ce1139f72f8c4dd2a62101382ca15",
+   "size": 31343
+  },
+  "windows/launcher.bat.txt": {
+   "mode": 420,
+   "sha256": "4bd7a9e642249285aa1d8db2a6a0920d2a970c25e128e50cf6a9caf25c8eea93",
+   "size": 5812
+  },
+  "windows/package_setup.bat.txt": {
+   "mode": 420,
+   "sha256": "9d0286284b9c26b3158157ad26658a9d0fe28fae72e1f62d78cba11a72b7e8c9",
+   "size": 1309
+  },
+  "windows/restore/readme.txt": {
+   "mode": 420,
+   "sha256": "5044fd3b2adb2daffc368e2ae7f9bb67aef9e0ff3a6dc95cb647d8ed50b75e10",
+   "size": 2756
+  },
+  "windows/restore/restore.bat.txt": {
+   "mode": 420,
+   "sha256": "d4293d94f1422ed1e8c04a48640d7a724ae131c86296fc39843b9a3203536eb1",
+   "size": 1519
+  },
+  "windows/restore/restore.ps1.txt": {
+   "mode": 420,
+   "sha256": "da2d385b4e841840e963065ec8ebb87890f8fc1988c4176b4755ebea082fe38b",
+   "size": 14310
+  },
+  "windows/restore/restore_kit.py": {
+   "mode": 420,
+   "sha256": "ecac9cbe7c668514c5718b190274bb4bbd2e671a9b5506a1b2ea3ba220ecd47d",
+   "size": 11177
+  },
+  "windows/התקנה.bat": {
+   "mode": 420,
+   "sha256": "316f839f3a92d3aa436e9753253149ebb1c2c853fc2b647a8bfd8350f5b2aa7b",
+   "size": 281
+  }
+ },
+ "format": 1,
+ "key_id": "fc5607d3",
+ "min_required": "4.7.3",
+ "must_not_skip": false,
+ "notes": [
+  "העדכון הראשון מהאינטרנט: מעכשיו מעדכנים את התוכנה בלחיצה אחת בשורה העליונה.",
+  "כל עדכון נבדק וחתום לפני שהוא יוצא."
+ ],
+ "previous": "4.7.3",
+ "version": "4.7.13"
+}
