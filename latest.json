@@ -1,0 +1,14 @@
+{
+ "format": 1,
+ "latest": "4.7.13",
+ "updated": "2026-11-25",
+ "releases": [
+  {
+   "version": "4.7.13",
+   "previous": "4.7.3",
+   "must_not_skip": false,
+   "path": "releases/4.7.13",
+   "date": "2026-11-25"
+  }
+ ]
+}
